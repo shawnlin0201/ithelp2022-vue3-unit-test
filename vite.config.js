@@ -1,7 +1,17 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import WindiCSS from 'vite-plugin-windicss'
+import eslintPlugin from 'vite-plugin-eslint'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()]
+  plugins: [
+    vue(),
+    eslintPlugin({
+      include: ['src/**/*.js', 'src/**/*.vue', 'src/**/*.ts'],
+    }),
+    WindiCSS({
+      fileExtensions: ['vue', 'js', 'html'],
+    }),
+  ],
 })
