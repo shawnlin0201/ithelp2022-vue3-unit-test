@@ -10,7 +10,7 @@ export const routeSetting = {
   },
   // 引導頁
   Intro: {
-    path: '/intro',
+    path: '/intro/:page',
     name: 'intro-page',
     component: IntroPage,
   },
