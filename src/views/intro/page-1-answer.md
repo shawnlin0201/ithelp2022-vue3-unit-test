@@ -3,7 +3,7 @@
 ```js
 describe('add()', () => {
   it(`add(1, 1)，應該為 2`, () => {
-    expect(add(1, 1) === 2).toBe(true)
+    expect(add(1, 1)).toBe(2)
   })
   it(`add('1','1') 應該為 2`, () => {
     expect(add('1', '1')).toBe(2)
