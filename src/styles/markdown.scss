@@ -1,0 +1,87 @@
+/*
+還原 https://www.w3schools.com/cssref/css_default_values.asp
+*/
+.markdown-preview {
+  p {
+    margin: 1em 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #1d1f3e;
+    display: block;
+    font-weight: bold;
+  }
+  h1 {
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+
+    font-weight: bold;
+  }
+  h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+  }
+  h3 {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  h4 {
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+  }
+
+  ul {
+    list-style-type: disc;
+    padding-left: 40px;
+    ul {
+      list-style-type: circle;
+      padding-left: 40px;
+    }
+  }
+
+  li {
+    display: list-item;
+  }
+
+  hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  }
+
+  code:not(.hljs) {
+    background-color: #00000010;
+    font-family: monospace;
+    font-size: 1.2em;
+  }
+
+  blockquote {
+    margin: 1em 0;
+    background: #f8f8f8;
+    padding: 1em 1em;
+    color: #51565b;
+    border-left: 0.25em solid #24264b;
+    code:not(.hljs) {
+      background-color: #0000001a;
+    }
+  }
+
+  blockquote > :first-child {
+    margin-top: 0;
+  }
+
+  blockquote > :last-child {
+    margin-bottom: 0;
+  }
+}

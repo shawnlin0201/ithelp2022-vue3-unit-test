@@ -11,12 +11,18 @@
     "test:unit": "vitest --environment jsdom"
   },
   "dependencies": {
+    "highlight.js": "^11.6.0",
+    "markdown-it": "^13.0.1",
+    "markdown-it-highlightjs": "^4.0.1",
     "pinia": "^2.0.14",
     "sass": "^1.54.9",
+    "unplugin-icons": "^0.14.10",
+    "vite-plugin-markdown": "^2.1.0",
     "vue": "^3.2.37",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
+    "@iconify/json": "^2.1.113",
     "@vitejs/plugin-vue": "^3.1.0",
     "@vue/test-utils": "^2.0.2",
     "eslint": "^8.16.0",
@@ -27,6 +33,7 @@
     "node-sass": "^7.0.3",
     "prettier": "2.6.2",
     "sass-loader": "^13.0.2",
+    "unplugin-vue-components": "^0.22.7",
     "vite": "^3.1.0",
     "vite-plugin-eslint": "^1.6.1",
     "vite-plugin-windicss": "^1.8.4",
