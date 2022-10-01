@@ -1,0 +1,5 @@
+export class FoodBank {
+  constructor() {
+    // ...
+  }
+}
